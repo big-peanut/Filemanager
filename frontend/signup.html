@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Axios library for making HTTP requests -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+    <!-- Link to the signup page's stylesheet -->
+    <link rel="stylesheet" href="./signup.css">
+
+    <!-- Title of the signup page -->
+    <title>FILE MANAGER | SIGNUP</title>
+</head>
+
+<body>
+    <!-- Heading for the signup form -->
+    <h2>Sign Up</h2>
+
+    <!-- Signup form -->
+    <form id="signupform">
+        <!-- Input fields for name, email, and password -->
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name" required autocomplete="off">
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" required autocomplete="off">
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" required autocomplete="off">
+
+        <!-- Button to submit the signup form -->
+        <button type="submit">SIGN UP</button>
+
+        <!-- Link to redirect to the login page -->
+        <a href="./login.html">Already Registered? Login</a>
+    </form>
+
+    <!-- JavaScript file for signup functionality -->
+    <script src="./signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form hover effect */
+form:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Submit button hover effect */
+button[type="submit"]:hover {
+    background-color: #086aab;
+}
+
+/* Input focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db;
+}
+
+/* Anchor tag styles */
+a {
+    display: block;
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Anchor tag hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph styles for error messages */
+p {
+    text-align: center;
+    color: red;
+}

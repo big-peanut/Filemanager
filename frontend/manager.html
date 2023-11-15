@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Axios library for handling HTTP requests -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- External CSS file for manager-specific styles -->
+    <link rel="stylesheet" href="./manager.css">
+    <!-- Title of the web page -->
+    <title>FILE MANAGER</title>
+</head>
+
+<body>
+    <!-- Header section with navigation bar -->
+    <header>
+        <nav class="navbar">
+            <!-- Title of the application -->
+            <div class="title">File Manager</div>
+            <!-- Action buttons in the navbar -->
+            <div class="actions">
+                <button class="btn-create-folder">Create Folder</button>
+                <!-- Custom button for file upload -->
+                <label for="file" class="custom-upload-button">
+                    <span class="custom-upload-button-label">Upload File</span>
+                </label>
+                <input type="file" id="file" class="btn-upload-file">
+                <!-- Logout button -->
+                <button class="btn-logout">Logout</button>
+            </div>
+        </nav>
+    </header>
+    <!-- Main content section -->
+    <div class="main-content">
+        <!-- Container for displaying folders -->
+        <div class="folders-container"></div>
+        <!-- Container for displaying files -->
+        <div class="file-conatiner"></div>
+    </div>
+
+    <!-- JavaScript file handling the manager functionality -->
+    <script src="./manager.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Axios library for HTTP requests -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="./login.css">
+
+    <!-- Page title -->
+    <title>FILE MANAGER | LOGIN</title>
+</head>
+
+<body>
+    <!-- Login form section -->
+    <h2>Login</h2>
+    <form id="loginform">
+        <!-- Email input field -->
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required autocomplete="off">
+
+        <!-- Password input field -->
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Login button -->
+        <button type="submit" class="submit-btn">Login</button>
+
+        <!-- Links for signup and forgot password -->
+        <a href="./signup.html">New User? Sign Up</a>
+        <a href="#" id="forgotpassword">Forgot Password?</a>
+    </form>
+
+    <!-- JavaScript file for login functionality -->
+    <script src="./login.js"></script>
+</body>
+
+</html>
